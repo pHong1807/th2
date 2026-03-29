@@ -1,0 +1,120 @@
+export const COLORS = {
+  green: '#2E7D32',
+  greenLight: '#4CAF50',
+  greenPale: '#E8F5E9',
+  greenMid: '#C8E6C9',
+  orange: '#FF6F00',
+  white: '#FFFFFF',
+  gray50: '#FAFAFA',
+  gray100: '#F5F5F5',
+  gray200: '#EEEEEE',
+  gray400: '#BDBDBD',
+  gray600: '#757575',
+  gray800: '#424242',
+  gray900: '#212121',
+};
+
+export const PRODUCTS = [
+  {
+    id: '1',
+    name: 'Organic Bananas',
+    meta: '7pcs',
+    price: 4.99,
+    image: require('../assets/banana.png'),
+    bg: ['#FFFDE7', '#FFF9C4'],
+    category: 'fruits',
+    description:
+      'Organic bananas are a great source of potassium, vitamin B6, and fiber. Perfect for a healthy snack or smoothie ingredient.',
+    nutrition: { calories: 89, carbs: '23g', protein: '1.1g', fat: '0.3g' },
+    rating: 4.8,
+    reviews: 120,
+  },
+  {
+    id: '2',
+    name: 'Red Apple',
+    meta: '1kg',
+    price: 4.99,
+    image: require('../assets/redapple.png'),
+    bg: ['#FCE4EC', '#F8BBD0'],
+    category: 'fruits',
+    description:
+      'Apples Are Nutritious. Apples May Be Good For Weight Loss. Apples Are Good For Your Heart. As Part Of A Healthful And Varied Diet.',
+    nutrition: { calories: 52, carbs: '14g', protein: '0.3g', fat: '0.2g' },
+    rating: 4.9,
+    reviews: 245,
+  },
+  {
+    id: '3',
+    name: 'Bell Pepper',
+    meta: '250g',
+    price: 4.99,
+    image: require('../assets/bellpepper.png'),
+    bg: ['#FCE4EC', '#FFCDD2'],
+    category: 'fruits',
+    description:
+      'Bell peppers are rich in nutrients, including vitamin A, vitamin C, and other nutrients.',
+    nutrition: { calories: 32, carbs: '7.7g', protein: '0.7g', fat: '0.3g' },
+    rating: 4.7,
+    reviews: 98,
+  },
+  {
+    id: '4',
+    name: 'Ginger',
+    meta: '200g',
+    price: 4.99,
+    image: require('../assets/ginger.png'),
+    bg: ['#E8F5E9', '#C8E6C9'],
+    category: 'vegetables',
+    description:
+      'Nutrient-dense leafy green packed with iron, calcium, and vitamins A, C, and K. Great for salads and cooking.',
+    nutrition: { calories: 23, carbs: '3.6g', protein: '2.9g', fat: '0.4g' },
+    rating: 4.6,
+    reviews: 77,
+  },
+  {
+    id: '5',
+    name: 'Beef Bone',
+    meta: '1kg',
+    price: 4.99,
+    image: require('../assets/beefbone.png'),
+    bg: ['#FFF3E0', '#FFE0B2'],
+    category: 'meat',
+    description:
+      'High quality beef bones perfect for broths and soups. Rich in collagen and minerals for a nourishing meal.',
+    nutrition: { calories: 210, carbs: '0g', protein: '19g', fat: '15g' },
+    rating: 4.5,
+    reviews: 56,
+  },
+  {
+    id: '6',
+    name: 'Broiler Chicken',
+    meta: '1kg',
+    price: 4.99,
+    image: require('../assets/broilerchicken.png'),
+    bg: ['#FFF8E1', '#FFECB3'],
+    category: 'meat',
+    description:
+      'Fresh broiler chicken, farm-raised without hormones. Versatile protein for grilling, roasting, or currying.',
+    nutrition: { calories: 165, carbs: '0g', protein: '31g', fat: '3.6g' },
+    rating: 4.7,
+    reviews: 134,
+  },
+];
+
+export const BEVERAGES = [
+  { id: 'b1', name: 'Diet Coke', meta: '355ml', price: 1.99, image: require('../assets/dietcoke.png'), bg: ['#FFEBEE', '#FFCDD2'] },
+  { id: 'b2', name: 'Sprite Can', meta: '325ml', price: 1.50, image: require('../assets/sprite.png'), bg: ['#E8F5E9', '#C8E6C9'] },
+  { id: 'b3', name: 'Apple & Grape Juice', meta: '2L', price: 15.99, image: require('../assets/applegrape.png'), bg: ['#FCE4EC', '#F3E5F5'] },
+  { id: 'b4', name: 'Orange Juice', meta: '2L', price: 15.99, image: require('../assets/orangejuice.png'), bg: ['#FFF3E0', '#FFE0B2'] },
+  { id: 'b5', name: 'Coca Cola Can', meta: '325ml', price: 4.99, image: require('../assets/coca.png'), bg: ['#FFEBEE', '#FFCDD2'] },
+  { id: 'b6', name: 'Pepsi Can', meta: '330ml', price: 4.99, image: require('../assets/pepsi.png'), bg: ['#E3F2FD', '#BBDEFB'] },
+];
+
+export const CATEGORIES = [
+  { id: 'c1', name: 'Fresh Fruits\n& Vegetable', image: require('../assets/fruit.png'), bg: '#E8F5E9', border: '#C8E6C9' },
+  { id: 'c2', name: 'Cooking Oil\n& Ghee', image: require('../assets/oil.png'), bg: '#FFFDE7', border: '#FFF9C4' },
+  { id: 'c3', name: 'Meat & Fish', image: require('../assets/meat.png'), bg: '#FFF0E6', border: '#FFE0CC' },
+  { id: 'c4', name: 'Bakery & Snacks', image: require('../assets/bread.png'), bg: '#FFF8E1', border: '#FFE082' },
+  { id: 'c5', name: 'Dairy & Eggs', image: require('../assets/dairy.png'), bg: '#FCE4EC', border: '#F8BBD0' },
+  { id: 'c6', name: 'Beverages', image: require('../assets/bevarage.png'), bg: '#E3F2FD', border: '#BBDEFB', screen: 'Beverages' },
+];
