@@ -55,7 +55,7 @@ export default function MainNavigator() {
       }}
     >
       <Tab.Screen name="Shop" component={HomeStack}
-        options={{ tabBarIcon: ({ focused, color }) => <Image source={IMAGES.icons.shop} style={{ width: 24, height: 24, tintColor: color }} resizeMode="contain"  /> }} />
+        options={{ tabBarIcon: ({ focused, color }) => <Image source={IMAGES.icons.shop} style={{ width: 24, height: 24, tintColor: color }}  /> }} />
       <Tab.Screen name="Explore" component={ExploreStack}
         options={{ tabBarIcon: ({ focused, color }) =>  <Image source={IMAGES.icons.explore} style={{ width: 24, height: 24, tintColor: color }} resizeMode="contain"  /> }} />
       <Tab.Screen name="Cart" component={CartScreen}
